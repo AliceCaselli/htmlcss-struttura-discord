@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-    /* 
+    
     .debug *{
         border: 1px dotted red;
-    } */
+    }
 
 .container{
     max-width: 1000px;
@@ -14,28 +14,21 @@
     margin-right: auto;
 }
 
-
 nav{
    background-color: rgb(82, 82, 95);
 }
-
 
 #inner-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     height: 80px;
     width: 100%;
     background-color: black;
-
-
 }
 
 #inner-nav ul{
     list-style-type: none;
-  
-    
 }
 
 #logo{
@@ -46,7 +39,6 @@ nav{
 }
 
 #links{
-   
     display: flex;
     align-items: stretch;
     /* test */
@@ -57,17 +49,13 @@ nav{
     flex-direction: row;
     align-items: center;
     gap: 30px;
-
 }
 
 #links li{
     height: 30px;
     width: 60px;
     background-color: #1093aa;
-
-
     /* test */
-
 }
 
 #login{
@@ -75,5 +63,59 @@ nav{
     width: 100px;
     background-color: #d475c1;
     /* test */
-
 }
+
+header{
+    height: 500px;
+    background-color: rgb(82, 82, 95);
+}
+
+.container-two{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inner-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    height: 70px;
+    width: 300px;
+    background-color: #1093aa;
+    /* test */
+}
+
+p{
+    width: 100%;
+    height: 150px;
+    background-color: #70aa55;
+    /* test */
+}
+
+#download{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#mac{
+    height: 50px;
+    width: 100px;
+    background-color: #d475c1;
+    /* test */
+}
+
+#browser{
+    height: 50px;
+    width: 150px;
+    background-color: #d475c1;
+    /* test */
+}
+
