@@ -3,4 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+    /* 
+    .debug *{
+        border: 1px dotted red;
+    } */
 
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav{
+   background-color: rgb(82, 82, 95);
+}
+
+
+#inner-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 80px;
+    width: 100%;
+    background-color: black;
+
+
+}
+
+#inner-nav ul{
+    list-style-type: none;
+  
+    
+}
+
+#logo{
+    height: 80px;
+    width: 100px;
+    background-color: #70aa55;
+    /* test */
+}
+
+#links{
+   
+    display: flex;
+    align-items: stretch;
+    /* test */
+}
+
+#links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#links li{
+    height: 30px;
+    width: 60px;
+    background-color: #1093aa;
+
+
+    /* test */
+
+}
+
+#login{
+    height: 80px;
+    width: 100px;
+    background-color: #d475c1;
+    /* test */
+
+}
