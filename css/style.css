@@ -31,7 +31,7 @@ nav{
     list-style-type: none;
 }
 
-#logo{
+.logo{
     height: 80px;
     width: 100px;
     background-color: #70aa55;
@@ -58,7 +58,7 @@ nav{
     /* test */
 }
 
-#login{
+.login{
     height: 80px;
     width: 100px;
     background-color: #d475c1;
@@ -122,28 +122,20 @@ p{
     /* test */
 }
 
-#inner-main{
-    height: 3500px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
-}
-
 .partition{
     width: 100%;
-    height: 25%;
+    height: 700px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(34, 33, 33, 0.459);
+    gap: 20px;
 }
 
 #bottom-sec{
     height: 400px;
     width: 100%;
-    background-color: rgba(34, 33, 33, 0.459);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -191,4 +183,51 @@ p{
 
 #mac-bottom{
     background-color: #1093aa;
+}
+
+footer{
+    width: 100%;
+    height: 700px;
+}
+
+.inner-footer{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-color: rgb(48, 48, 61);
+}
+
+#ban{
+    height: 300px;
+    width: 300px;
+    background-color: #d475c1;
+
+}
+
+.data-list li{
+    height: 30px;
+    width: 100px;
+    background-color: #70aa55;
+
+}
+
+.data-list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.bottom-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(48, 48, 61);
 }
